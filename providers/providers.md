@@ -4,10 +4,10 @@ True. The "terraform providers" command displays the providers needed by the con
 
 For example:
 
-iac-server $ terraform providers
+$ terraform providers
 
 Providers required by configuration:
-.
+
 ├── provider[registry.terraform.io/hashicorp/local]
 └── provider[registry.terraform.io/hashicorp/aws]
 ---
