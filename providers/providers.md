@@ -10,3 +10,4 @@ Providers required by configuration:
 .
 ├── provider[registry.terraform.io/hashicorp/local]
 └── provider[registry.terraform.io/hashicorp/aws]
+---
