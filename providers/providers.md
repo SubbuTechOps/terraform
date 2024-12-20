@@ -1,4 +1,5 @@
-# The terraform providers command shows information about the provider requirements of the configuration in the current working directory. True or False?
+# 1. The terraform providers command shows information about the provider requirements of the configuration in the current working directory. True or False?
+
 True. The "terraform providers" command displays the providers needed by the configuration.
 
 For example:
