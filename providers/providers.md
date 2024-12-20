@@ -7,6 +7,7 @@ For example:
 $ terraform providers
 
 Providers required by configuration:
+
 .
 
 ├── provider[registry.terraform.io/hashicorp/local]
