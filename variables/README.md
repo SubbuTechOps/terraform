@@ -1,5 +1,28 @@
 # Terraform Variables - Basic Concepts with Notes
 
+## Table of Contents
+1. [Basic Variable Types and Declaration](#1-basic-variable-types-and-declaration)
+   - [String Variables](#11-string-variables)
+   - [Number Variables](#12-number-variables)
+   - [Boolean Variables](#13-boolean-variables)
+   - [List Variables](#14-list-variables)
+   - [Map Variables](#15-map-variables)
+   - [Object Variables](#16-object-variables)
+2. [Variable Definition Files](#2-variable-definition-files)
+   - [terraform.tfvars](#21-terraformtfvars)
+   - [Environment-specific files](#22-environment-specific-files)
+3. [Variable Validation](#3-variable-validation)
+   - [Basic Validation](#31-basic-validation)
+   - [Complex Validation](#32-complex-validation)
+4. [Ways to Set Variables](#4-ways-to-set-variables)
+   - [Command Line](#41-command-line)
+   - [Variable Files](#42-variable-files)
+   - [Environment Variables](#43-environment-variables)
+5. [Variable Precedence](#5-variable-precedence-highest-to-lowest)
+6. [Local Values](#6-local-values)
+7. [Working with Sensitive Variables](#7-working-with-sensitive-variables)
+8. [Best Practices Summary](#8-best-practices-summary)
+
 ## 1. Basic Variable Types and Declaration
 
 ### 1.1 String Variables
