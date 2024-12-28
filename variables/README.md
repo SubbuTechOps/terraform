@@ -1,4 +1,3 @@
-# Terraform Variables
 # Comprehensive Guide to Terraform Variables
 
 ## Table of Contents
