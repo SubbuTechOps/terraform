@@ -156,17 +156,16 @@ unset TF_VAR_region
 ---
 ```mermaid
 flowchart TB
-    L1[Level 1: Default Values in variables.tf] --> |Overridden by| L2
-    L2[Level 2: Environment Variables TF_VAR_*] --> |Overridden by| L3
-    L3[Level 3: terraform.tfvars] --> |Overridden by| L4
-    L4[Level 4: *.auto.tfvars] --> |Overridden by| L5
-    L5[Level 5: -var-file] --> |Overridden by| L6
-    L6[Level 6: Command Line -var]
+    A[Default Values] -->|Override by| B[Environment Variables]
+    B -->|Override by| C[terraform.tfvars]
+    C -->|Override by| D[*.auto.tfvars]
+    D -->|Override by| E["-var-file" Arguments]
+    E -->|Override by| F["-var" Arguments]
     
-    style L1 fill:#e6f3ff,stroke:#333
-    style L2 fill:#ffe6e6,stroke:#333
-    style L3 fill:#e6ffe6,stroke:#333
-    style L4 fill:#fff3e6,stroke:#333
-    style L5 fill:#f3e6ff,stroke:#333
-    style L6 fill:#e6ffff,stroke:#333
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style C fill:#bfb,stroke:#333
+    style D fill:#fbf,stroke:#333
+    style E fill:#ffb,stroke:#333
+    style F fill:#fbb,stroke:#333
 ```
