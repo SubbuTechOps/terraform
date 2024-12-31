@@ -163,30 +163,10 @@ flowchart TB
     L5[Level 5: -var-file] --> |Overridden by| L6
     L6[Level 6: Command Line -var]
     
-    V1["VPC CIDR: 10.0.0.0/16
-        Environment: development"] --> V2
-    V2["VPC CIDR: 10.0.0.0/16 (unchanged)
-        Environment: env-override"] --> V3
-    V3["VPC CIDR: 10.0.0.0/16 (unchanged)
-        Environment: staging"] --> V4
-    V4["VPC CIDR: 172.20.0.0/16
-        Environment: test"] --> V5
-    V5["VPC CIDR: 192.168.0.0/16
-        Environment: dev"] --> V6
-    V6["VPC CIDR: 10.20.0.0/16
-        Environment: prod"]
-        
     style L1 fill:#e6f3ff,stroke:#333
     style L2 fill:#ffe6e6,stroke:#333
     style L3 fill:#e6ffe6,stroke:#333
     style L4 fill:#fff3e6,stroke:#333
     style L5 fill:#f3e6ff,stroke:#333
     style L6 fill:#e6ffff,stroke:#333
-    
-    style V1 fill:#e6f3ff,stroke:#333
-    style V2 fill:#ffe6e6,stroke:#333
-    style V3 fill:#e6ffe6,stroke:#333
-    style V4 fill:#fff3e6,stroke:#333
-    style V5 fill:#f3e6ff,stroke:#333
-    style V6 fill:#e6ffff,stroke:#333
 ```
